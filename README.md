@@ -71,15 +71,19 @@ When prompted for the number of students and a user enters 0, the program encoun
 ###  Example  Input/Output  
 This is a demonstration of how the program runs and the key features implemented.
 
-![P1](sect_a1.png)
-![P2](sect_a2.png)
-![P3](sect_a3.png)
+![P1](sect_b1.png)
+![P2](sectb2.png)
+![P3](sectb3.png)
+![P4](sectb4.png)
 
 ###  Assumptions  and  Limitations  
 
-- Grades entered should be 0 zero and 100
-- Grades can be whole numbers or numbers with decimal points
-- Each student should have one grade
+- A student has exactly 3 grades, one for each subject
+- Each student has a math grade, English grade, and a science grade.
+- Grades are numbers between 0 and 100
+- The program uses only the three subjects defined in the subjects list
+- The average of each student is calculated using three subject gradeS
+
 
 ## Testing Summary
 | Test | What was tested | Expected result | Actual result | Status |
