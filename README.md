@@ -125,9 +125,12 @@ When prompted for the number of students and a user enters 0, the program encoun
 ###  Example  Input/Output  
 This is a demonstration of how the program runs and the key features implemented.
 
-![P1](sect_a1.png)
-![P2](sect_a2.png)
-![P3](sect_a3.png)
+![P1](sectc1.png)
+![P2](sectc2.png)
+![P3](sectc3.png)
+![P1](sectc5.png)
+![P2](sectc4.png)
+
 
 ###  Assumptions  and  Limitations  
 
