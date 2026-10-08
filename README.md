@@ -12,15 +12,14 @@ The Gradebook Management System is a python-based program that helps manage stud
 ## SECTION A - Basic Student Management
 
 ### Features
-
-• Prompts the user to enter their number of students
-• ⁠ Prompts the user to enter student names
-• ⁠ Prompts the user to enter student grades
-• ⁠ Calculates the grades total
-• ⁠ Calculates the average
-• ⁠ Displays the grades total
-• ⁠ Displays the average
-• ⁠ Performs grade validation to ensure that grades entered are between 0 and 100
+- Prompts the user to enter their number of students
+- Prompts the user to enter student names
+- Prompts the user to enter student grades
+- Calculates the grades total
+- Calculates the average
+- Displays the total of the grades
+- Displays the class average
+- Performs grade validation to ensure that grades entered are between 0 and 100
 
 ###  Example  Input/Output  
 This is a demonstration of how the program runs and the key features implemented.
