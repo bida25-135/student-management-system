@@ -36,8 +36,7 @@ This is a demonstration of how the program runs and the key features implemented
 - Each student should have one grade
 
 ## Testing Summary
-
-| # Test | # What was tested | # Expected result | # Actual result | # Status |
+| Test | What was tested | Expected result | Actual result | Status |
 |---|---|---|---|---|
 | 1 | 3 students with valid grades were entered | The students should be accepted and stored | All 3 students were accepted and stored | Pass |
 | 2 | Input a grade of 60 | The program should accept the grade | The program accepted the grade | Pass |
@@ -45,6 +44,8 @@ This is a demonstration of how the program runs and the key features implemented
 | 4 | Test grade of -18 | The program should reject the grade and ask for another one | The program rejected the grade and asked for another one | Pass |
 | 5 | Enter different student names and grades | The total and average should be calculated | The total and average were calculated and displayed | Pass |
 | 6 | Enter a student count of 0 | A zero division error | Terminal displayed a zero division error | Pass |
+| 7 | Entering a grade of 0 | The program should accept the grade | Grade was accepted | Pass |
+| 8 | Entering a grade of 100 | The program should accept the grade | Grade was accepted | Pass |
 
 ###  Known  Issues  
 
