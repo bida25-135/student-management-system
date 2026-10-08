@@ -18,3 +18,10 @@ Features
 • ⁠ Performs grade validation to ensure that grades entered are between 0 and 100
 
 Example  Input/Output  
+Assumptions  and  Limitations  
+- Grades entered should be 0 zero and 100
+- Grades can be whole numbers or numbers with decimal points
+- Each student should have one grade
+
+Known  Issues  
+When prompted for the number of students and a user enters 0, the program encounters at division by zero error meaning does not handle a student count of 0 when the average is calculated. 
