@@ -133,27 +133,28 @@ This is a demonstration of how the program runs and the key features implemented
 
 ###  Assumptions  and  Limitations  
 
-- Grades entered should be 0 zero and 100
-- Grades can be whole numbers or numbers with decimal points
-- Each student should have one grade
+- Each student has one grade for each subject.
+- The user is expected to enter an existing students name when they are viewing grades or searching for a student.
+- The user inputs a valid subject when updating or viewing grades.
+- Grades are xpected to be values between 0 and 100.
+- Names with special characters should be allowed.
+- The program uses the students name to identify and access as their grades.
 
 ## Testing Summary
 | Test | What was tested | Expected result | Actual result | Status |
 |---|---|---|---|---|
-| 1 | 3 students with valid grades were entered | The students should be accepted and stored | All 3 students were accepted and stored | Pass |
-| 2 | Input a grade of 60 | The program should accept the grade | The program accepted the grade | Pass |
-| 3 | Enter a grade of 109 | The program should reject the grade and ask for a valid one | The program rejected the grade and asked for for an input between 0 and 100 | Pass |
-| 4 | Test grade of -18 | The program should reject the grade and ask for another one | The program rejected the grade and asked for another one | Pass |
-| 5 | Enter different student names and grades | The total and average should be calculated | The total and average were calculated and displayed | Pass |
-| 6 | Enter a student count of 0 | A zero division error | Terminal displayed a zero division error | Pass |
-| 7 | Entering a grade of 0 | The program should accept the grade | Grade was accepted | Pass |
-| 8 | Entering a grade of 100 | The program should accept the grade | Grade was accepted | Pass |
+| 1 | Entering a name that contains special characters | If the name is entered as text, the program should accept it | The program accepted the name with a special character | Pass |
+| 2 | Searching for a nonexistent student | The program should display student not found |The program displayed student not found | Pass |
+| 3 | Adding new student | New student should be added without problems | The new student is added to the students dictionary | Pass |
+| 4 | Entering a grade above 100 or below 0 | The program must prompt the user to enter a valid grade | The program asks the user to input in a grade between 0 and 100 | Pass |
+| 5 | Updating an existing students grade | The specified subject grade should be replaced | TThe selected subject grade is replaced with the new grade | Pass |
+| 6 | Searching for nonexistent subject | Program should output a message asking the user to enter a valid subject | Program prompted the user to enter a valid subject | Pass |
 
 ###  Known  Issues  
 
-When prompted for the number of students and a user enters 0, the program encounters at division by zero error meaning does not handle a student count of 0 when the average is calculated. 
-
-![Zero Division Error](0division.png)
+- At the start, grades above 100 and below 0  were accepted and this was fixed by adding a loop to validate the grades.
+- Originally, the student biology wishes not in the list was accepted, adding a loop ensures only Math, English, or Science were entered
+- Entering a name, but accidentally leaving a trailing space caused the student to be stored under a different dictionary, this resulted in “student not found” later when trying to remove names or search. strip() was added to areas where users were prompted to enter names to prevent this
 
 ### References
  
