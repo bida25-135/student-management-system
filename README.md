@@ -23,6 +23,12 @@ Features
 • ⁠ Performs grade validation to ensure that grades entered are between 0 and 100
 
 Example  Input/Output  
+This is a demonstration of how the program runs and the key features implemented.
+
+![P1](sect_a1.png)
+![P2](sect_a2.png)
+![P3](sect_a3.png)
+
 Assumptions  and  Limitations  
 
 - Grades entered should be 0 zero and 100
