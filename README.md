@@ -39,3 +39,6 @@ Known  Issues
 
 When prompted for the number of students and a user enters 0, the program encounters at division by zero error meaning does not handle a student count of 0 when the average is calculated. 
 ![Zero Division Error](0division.png)
+ References
+ 
+ W3Schools Python Tutorials. [W3Schools – Python Tutorial](https://www.w3schools.com/python/)
