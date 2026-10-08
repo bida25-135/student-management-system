@@ -7,6 +7,7 @@ SETUP INSTRUCTIONS
 - Follow the prompts displayed in the terminal.
   
 #SECTION A - Basic Student Management
+
 Features
 • Prompts the user to enter their number of students
 • ⁠ Prompts the user to enter student names
@@ -25,3 +26,4 @@ Assumptions  and  Limitations
 
 Known  Issues  
 When prompted for the number of students and a user enters 0, the program encounters at division by zero error meaning does not handle a student count of 0 when the average is calculated. 
+![Zero Division Error](0division.png)
